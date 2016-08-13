@@ -13,12 +13,13 @@
   },
   "browser_action": {
     "default_icon": "icons/icon19.png",
-    "default_title": "4th Browser action",
+    "default_title": "Bloi - create new",
     "default_popup": "pop.html"
   },
   "permissions": [
     "chrome://favicon/",
     "tabs",
+    "activeTab",
     "http://*/*",
     "https://*/* "
   ]

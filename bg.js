@@ -10,9 +10,9 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
       var _url = data.url;
 
       // Prepare querified url
-      var _query = "favIcon=" + _favIcon + "&"
+      var _query = "url=" + _url + "&"
       _query += "title=" + _title + "&"
-      _query += "url=" + _url
+      _query += "favIcon=" + _favIcon
 
       // Encode the url
       var encodedUrl = encodeURIComponent(_query); // rails doesn't like this.

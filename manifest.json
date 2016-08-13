@@ -1,5 +1,5 @@
 {
-  "name": "4th-extension",
+  "name": "Bloi - The blue bookmark store.",
   "version": "0.0.1",
   "manifest_version": 2,
   "icons": {
@@ -14,7 +14,7 @@
   "browser_action": {
     "default_icon": "icons/icon19.png",
     "default_title": "4th Browser action",
-    "default_popup": "popup.html"
+    "default_popup": "pop.html"
   },
   "permissions": [
     "chrome://favicon/",

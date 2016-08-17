@@ -1,5 +1,5 @@
 {
-  "name": "Bloi - The blue bookmark store.",
+  "name": "Bloi - the plain and simple bookmarking app.",
   "version": "0.0.1",
   "manifest_version": 2,
   "icons": {
@@ -13,7 +13,7 @@
   },
   "browser_action": {
     "default_icon": "icons/icon19.png",
-    "default_title": "Bloi - create new",
+    "default_title": "save on bloi.co",
     "default_popup": "pop.html"
   },
   "permissions": [

@@ -4,7 +4,7 @@
 
 chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
     if (message.name === 'bloiPageActionClicked') {
-      console.log("Message", message);
+      // console.log("Message", message);
 
       var getHostName = function(url) { // http://stackoverflow.com/a/12309951
         return url.toString().replace(/^(.*\/\/[^\/?#]*).*$/,"$1");
@@ -13,8 +13,6 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
       var getFaviconUrl = function(hostname){
         return hostname + "/favicon.ico";
       }
-
-
 
       // Extract data from message object
       var data = message.data[0];
@@ -36,8 +34,8 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
 
       // Open new bookmarks page with query string
       chrome.tabs.create({
-          'url': "http://localhost:3000/bookmarks/new?" + _query
-          // 'url': "http://bloi.co/bookmarks/new?" + _query
+          // 'url': "http://localhost:3000/bookmarks/new?" + _query
+          'url': "http://bloi.co/bookmarks/new?" + _query
       }, function(tab) {
         // You can sleep here or booze or whatever.
       });

@@ -1,11 +1,12 @@
 {
-  "name": "Bloi - zombie friendly bookmarks.",
+  "name": "Bloi - a zombie friendly bookmarking application.",
   "description": "bloi.co is a new age, bare minimal, no fuss bookmarking application.",
   "homepage_url": "http://bloi.co",
   "version": "0.2.0",
   "manifest_version": 2,
   "icons": {
     "16": "icons/icon16.png",
+    "19": "icons/icon19.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
